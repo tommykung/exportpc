@@ -13,7 +13,7 @@ use Excel;
 
 class ReportController extends Controller
 {
-	// construct xxx
+	// construct ++++++++++++++++++++++++++++++++++++
     public function __construct() { 
       $this->model = new \App\Report;
     }
