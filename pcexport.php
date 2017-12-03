@@ -13,7 +13,8 @@ use Excel;
 
 class ReportController extends Controller
 {
-    public function __construct() {
+	// construct xxx
+    public function __construct() { 
       $this->model = new \App\Report;
     }
     public function ReportExportPcDaily($customer_id,$sale_date){
